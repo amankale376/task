@@ -30,7 +30,7 @@ const [name , setName] = React.useState('');
 const [email , setEmail] = React.useState('');
 const [number , setNumber] = React.useState('');
 const [img , setImg] = React.useState('');
-const [arr , setArr] = React.useState([{name:'', email:'' , number:'',img:'' }]);
+const [arr , setArr] = React.useState([]);
 const sub =(e)=>{
   e.preventDefault();
   const newArr ={
